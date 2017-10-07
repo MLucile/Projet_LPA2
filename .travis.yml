@@ -1,6 +1,10 @@
 language: ruby
 rvm:
-- 2.0.0
-- 1.9.3
-- jruby-19mode
-- rbx-2
+- 2.3.5
+deploy:
+  provider: heroku
+  api_key:
+    secure: Lsw/D33COFNAqcV28B8hgmT22ltLb+e7xIoa9DgRI5GXWkbLQLwRE9bK/pKWfcfdv9EcTlaLxLccowAi27+LlRC5/zeM5Sx81R2m9vYGxaPcjG2t+VxtxahETH5txZps2e1L9z1RH5xINkLA1iGcBSe4UlJ9ZG1/sjLR5mNo0ItFBLkAUlvj07QvBHunbtPPwlg4nKBBSmGfen1n0jy1ST/xRXPcZ5LVmAcRRxk5BoJaFYZq6QpINMqFV4w2shRbV9F6HhwSv6n+lS9ebj8VsXF6VO49O99+OsV3TURoAHcBaHav8EdXP5RsQ8Hq8BLC2p9kraCysHpH+Zhw40eDxQHBhZSQiYVbx9rfejAkEnVMu5ECB1f/K1S/65y5CEKn5AqQEX4nqpxIq64R+odirjQUmchyN7F5pIRsTGhqAN+S5hw+INHV/uOc0dAgBKx0PN5HxUZxeDGIb3fjQAlCjA2diFkLWtQDLvxMqORzOA2jgj4P2v/OuoVIRLw72JlUdtnUJN9bb8GTVfcu391nF+UmEswFhIJTjP8qqRvA3fMKGz7u6yVnoXjJk+C1103rs+W2uaanWsNYRMp7Kmff0eLvSjH+PG+Sbm6ElEnT++zo9wUO7R1hx46bJT4HedTtgwdR9s/UWhRaXGHspS/q5xLG90a1QYKKB+upjext5e8=
+  app: Projet_LPA2
+  on:
+    repo: MLucile/Projet_LPA2
