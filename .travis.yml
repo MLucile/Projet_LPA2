@@ -8,3 +8,4 @@ deploy:
   app: projetlpa2
   on:
     repo: MLucile/Projet_LPA2
+  run: "rake db:migrate"
