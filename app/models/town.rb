@@ -1,6 +1,6 @@
 class Town < ActiveRecord::Base
   
-  before_validation: load_position
+  before_validation :load_position
   
   private
   def load_position
