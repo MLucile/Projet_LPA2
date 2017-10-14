@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.3.5
+- 2.3.4
 deploy:
   provider: heroku
   api_key:
