@@ -1,3 +1,4 @@
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -17,3 +18,8 @@
 
 <%= link_to 'Edit', edit_town_path(@town) %> |
 <%= link_to 'Back', towns_path %>
+
+<p>Météo</p>
+
+<p><%= resource.currently.summary %></p>
+<p>Temperature : <%= ((resource.currently.temperature - 32) * (5.0/9.0)).round(2) %>°C</p>
