@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://nominatim.openstreetmap.org/search?format=json&limit=1&q=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Nominatim Ruby Gem 0.0.6
+      Accept-language:
+      - en
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Sat, 02 Dec 2017 09:08:46 GMT
+      server:
+      - Apache/2.4.18 (Ubuntu)
+      access-control-allow-origin:
+      - "*"
+      access-control-allow-methods:
+      - OPTIONS,GET
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOiIxNzczMjU1MzgiLCJsaWNlbmNlIjoiRGF0YSDCqSBP
+        cGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHA6XC9c
+        L3d3dy5vcGVuc3RyZWV0bWFwLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUi
+        OiJyZWxhdGlvbiIsIm9zbV9pZCI6Ijc0NDQiLCJib3VuZGluZ2JveCI6WyI0
+        OC44MTU1NzU1IiwiNDguOTAyMTU2IiwiMi4yMjQxMjIiLCIyLjQ2OTc2MDIi
+        XSwibGF0IjoiNDguODU2NjEwMSIsImxvbiI6IjIuMzUxNDk5MiIsImRpc3Bs
+        YXlfbmFtZSI6IlBhcmlzLCBJbGUtZGUtRnJhbmNlLCBNZXRyb3BvbGl0YW4g
+        RnJhbmNlLCBGcmFuY2UiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHki
+        LCJpbXBvcnRhbmNlIjowLjMyNzIzMzY0OTgzMDQ4LCJpY29uIjoiaHR0cDpc
+        L1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGlj
+        b25zXC9wb2lfcGxhY2VfY2l0eS5wLjIwLnBuZyJ9XQ==
+    http_version: 
+  recorded_at: Sat, 02 Dec 2017 09:08:47 GMT
+recorded_with: VCR 3.0.3
